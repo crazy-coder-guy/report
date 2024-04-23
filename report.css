@@ -1,27 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 *
 {
     font-family: "Oswald", sans-serif;
+    margin: auto;
+}
+::selection
+{
+    background-color: black;
+    color: white;
 }
 .para
 {
     font-family: "Oswald", sans-serif;
-    position: absolute;
+    position: relative;
     top: 250px;
     font-size:50px;
-    left: 450px;
+    text-align: center;
 }
 .btn
 {
-    position: absolute;
-    top: 350px;
-    left:100vb;
+    position: relative;
+    top: 300px;
+   text-align: center;
     margin-left: auto;
     border-style:solid;
     border-radius: 5px;
     border-width: 1px;
     font-size: 25px;
+    width: fit-content;
 
 }
 .title
@@ -33,4 +41,143 @@
 {
    background-color: rgb(0, 0, 0);
    color: rgb(255, 255, 255);
+}
+.header
+{
+  position: fixed;
+  left: 0;
+  margin-top: 1%;
+  max-width:100%;
+  width: 100%;
+  padding: 2px px 2px;
+ background-color: black;
+ border-style: solid;
+ border-radius: 50x;
+ display: flex;
+}
+.navbar>a
+{
+    
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 50px;
+    font-size: 25px;
+    color: white;
+}
+.navbar>a:hover{
+ color: antiquewhite;
+}
+.intro
+{
+    padding:5px;
+    position: absolute;
+    top: 20%;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 2px;
+    color: rgb(36, 47, 50);
+    font-family: "Ubuntu", sans-serif;
+    font-size:20px;
+    text-align: justify;
+    line-height: 0.9cm;
+    
+}
+.profile
+{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    top:10%;
+    position:absolute;
+    
+}
+.tool
+{
+ position: absolute;
+ display: block;
+ top:60%;
+ border-style: solid;
+ border-radius: 25px;
+ padding: 5px;
+ margin-left: 5px;
+margin-right: 5px;
+background-color: black;
+}
+.tittle1
+{
+    font-size: 30px;
+    text-align: center;
+    color:white
+}
+.dark
+{
+    
+    font-size: 20px;
+    text-align: justify;
+    padding: 2px;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 0.9cm;
+    color: rgb(255, 255, 255);
+}
+.img1
+{
+    position: relative;
+    right: -2%;
+    
+}
+.img2
+{
+    position: relative;
+    right: -2%;
+}
+.tool2
+{
+ position: absolute;
+ margin-top: 80%;
+ border-style: solid;
+ border-radius: 25px;
+ border-color: transparent;
+ padding: 5px;
+ margin-left: 5px;
+margin-right: 5px;
+background-color: rgb(255, 255, 255);
+}
+.tittle2
+{
+    font-size: 30px;
+    text-align: center;
+    color:rgb(0, 0, 0)
+}
+.white
+{
+    
+    font-size: 20px;
+    text-align: justify;
+    padding: 2px;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 0.9cm;
+    color: rgb(0, 0, 0);
+}
+.tool3
+{
+ position: absolute;
+ display: block;
+ top:275%;
+ border-style: solid;
+ border-radius: 25px;
+ padding: 5px;
+ margin-left: 5px;
+margin-right: 5px;
+background-color: black;
+}
+.tool4
+{
+ position: absolute;
+ top: 380%;
+ border-style: solid;
+ border-radius: 25px;
+ border-color: transparent;
+ padding: 5px;
+ margin-left: 5px;
+margin-right: 5px;
+background-color: rgb(255, 255, 255);
 }
